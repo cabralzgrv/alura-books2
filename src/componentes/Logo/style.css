@@ -1,0 +1,8 @@
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    .LogoImg {
+        margin-right: 16px;
+    }
+  }
