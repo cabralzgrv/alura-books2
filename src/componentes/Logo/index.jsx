@@ -1,16 +1,27 @@
 import logo from '../../images/logo.svg'
-import './style.css'
+import styled from 'styled-components';
+
+const LogoContainer = styled.div`
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+`
+
+const Image = styled.img`
+  margin-right: 16px;
+
+`
 
 function Logo() {
     return (
-        <div className='logo'>
-          <img 
+        <LogoContainer>
+          <Image 
             src={logo}
             alt='Logo'
             className='LogoImg'>
-          </img>
+          </Image>
           <p><strong>Alura</strong>Books</p>
-        </div>
+        </LogoContainer>
     )
 }
 
