@@ -6,4 +6,40 @@
 
 .App-header {
   background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opcoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opcao {
+  font-size: 16px;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 5px;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone {
+  margin-right: 40px;
+  width: 25px;
+  align-items: center;
+}
+
+li {
+  list-style: none;
 }
