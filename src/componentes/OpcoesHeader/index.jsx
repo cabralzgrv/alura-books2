@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 const Opcoes = styled.ul`
     display: flex;
-    align-items: center;
-    justify-content: center;
 `
 
 const Opcao = styled.li`
