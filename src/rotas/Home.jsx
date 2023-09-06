@@ -11,7 +11,7 @@ const AppContainer = styled.div`
 function Home() {
   return (
     <AppContainer>
-      <SearchBar/>
+      <SearchBar />
       <UltimosLancamentos/>
     </AppContainer>
   );

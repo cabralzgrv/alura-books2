@@ -2,13 +2,14 @@ import Input from "../Input";
 import styled from "styled-components";
 import { useEffect, useState } from "react";
 import { getLivros } from "../../servicos/livros";
+import livroImg from "../../images/livro.png";
 
 const PesquisaContainer = styled.section`
     background-image: linear-gradient(90deg, #002F52 35%, #326589 165%);
     color: #FFF;
     text-align: center;
     padding: 85px 0;
-    height: 270px;
+    height: auto;
     width: 100%;
 `
 
@@ -72,7 +73,7 @@ function SearchBar() {
             />
             {livrosPesquisados.map( livro => (
                 <Resultado>
-                    <img src={livro.src} alt="Livro"/>
+                    <img src={livroImg} alt="Livro"/>
                     <p>{livro.nome}</p>
                 </Resultado>
             ))}

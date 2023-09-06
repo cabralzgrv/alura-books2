@@ -34,8 +34,8 @@ root.render(
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/favoritos" element={<Favoritos />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
